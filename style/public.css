@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    position: absolute;   
+    width: 1280px;
+    height: 1280px;
+}
+header{
+    background-color: #fff;
+    position: absolute;
+    width: inherit;
+    height: 56px;
+
+}
+.logo{
+    position: absolute;
+    width: 107px;
+    height: 35px;
+    background: url("../img/logo.png") no-repeat;
+    left: 59px;
+    top:16px;
+}
+.logo-p{
+    position: absolute;
+    font-family: SimHei;
+    font-size: 21px;
+    left: 100px;
+    top: 20px;
+}
+nav{
+    position: absolute;
+    right: 66px;
+    top: 16px;
+}
+nav li{
+    float: right;
+    margin-left: 43px;
+    font-family:"Microsoft YaHei";
+    font-size: 14px;
+    list-style: none;
+    opacity: 0.7;
+}
+nav li:hover{
+    cursor: pointer;
+    color: #e74f4d;
+    height: 38px;
+    border-bottom: 4px solid #e74f4d;
+}
+nav li a{
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
